@@ -1,6 +1,8 @@
 body {
   background-color: #b5fd8d;
   user-select: none;
+  background: url('./tausta1.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .container {
@@ -46,19 +48,24 @@ input {
 
 .clean {
   grid-column: 1/3;
-  background-color: #0288d1;
+  background-color: #DF9B92;
 }
 
 .back {
   grid-column: 3/-1;
+  background-color: #DF9B92;
 }
 
 .equal {
   grid-column: 4;
   grid-row: 6/8;
-  background-color: #bdbdbd;
+  background-color: #944D4D;
 }
 
 .zero {
   grid-column: 1/3;
+}
+
+.number {
+  background-color: #bdbdbd;
 }
