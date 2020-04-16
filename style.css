@@ -35,7 +35,7 @@ form {
 input {
   width: 98%;
   height: 60px;
-  border: none;
+  border: 5px soic #000000;
   font-size: 30px;
   outline: 4px solid #000000;
   text-align: right;
